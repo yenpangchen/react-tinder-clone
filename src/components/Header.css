@@ -1,0 +1,21 @@
+.header {
+  /* 讓東西都在同一行 */
+  display: flex;
+  /* 讓東西都保持等距 */
+  justify-content: space-between;
+  /* 實線的下邊界 */
+  border-bottom: 1px solid #f9f9f9;
+  /* 對齊 */
+  align-items: center;
+}
+
+.header__logo {
+  /* 調整圖片大小 */
+  height: 30px;
+  /* 固定比例 */
+  object-fit: contain;
+}
+
+.header__icon {
+  padding: 20px;
+}
